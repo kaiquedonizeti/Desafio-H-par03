@@ -1,21 +1,21 @@
 programa {
   funcao inicio() {
     
-    inteiro numero1, numero2, resp, operacao, contador
+    inteiro numero1, numero2, resp, operacao, escolha
     
     faca{
-    escreva("Digite um número: ")
+    escreva("Digite um nÃºmero: ")
     leia(numero1)
 
-    escreva("Digite outro número: ")
+    escreva("Digite outro nÃºmero: ")
     leia(numero2)
 
-    escreva("Escolha uma operação \n")
+    escreva("Escolha uma operaÃ§Ã£o \n")
 
-    escreva("1- adição \n")
-    escreva("2- subtração \n")
-    escreva("3- divisão \n")
-    escreva("4- multiplicação \n")
+    escreva("1- adiÃ§Ã£o \n")
+    escreva("2- subtraÃ§Ã£o \n")
+    escreva("3- divisÃ£o \n")
+    escreva("4- multiplicaÃ§Ã£o \n")
     leia(operacao)
 
     limpa()
@@ -38,16 +38,16 @@ programa {
         escreva(numero1," * ",numero2," = ",resp)
       pare
       caso contrario:
-        escreva("Opção inválida")
+        escreva("OpÃ§Ã£o invÃ¡lida")
       pare      
     }
 
     escreva("\n Deseja continuar? \n")
-    escreva("Se sim digite 1, se não digite 2: ")
-    leia(contador)
+    escreva("Se sim digite 1, se nÃ£o digite 2: ")
+    leia(escolha)
 
     limpa()
     
-  }enquanto(contador == 1)
+  }enquanto(escolha == 1)
   }
 }
