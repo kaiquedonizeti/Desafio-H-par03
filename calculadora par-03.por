@@ -1,7 +1,7 @@
 programa {
   funcao inicio() {
     
-    inteiro numero1, numero2, resp, operacao, escolha
+    inteiro numero1, numero2, resp, operacao, escolher
     
     faca{
     escreva("Digite um número: ")
@@ -44,10 +44,10 @@ programa {
 
     escreva("\n Deseja continuar? \n")
     escreva("Se sim digite 1, se não digite 2: ")
-    leia(escolha)
+    leia(escolher)
 
     limpa()
     
-  }enquanto(escolha == 1)
+  }enquanto(escolher == 1)
   }
 }
